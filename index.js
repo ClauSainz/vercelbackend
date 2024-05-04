@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/clau',(req,res)=>{
-    res.status(200).json({data:'clau'})
+    res.status(200).json({data:'claudia'})
 })
 
 app.get('/',async(request, response)=>{
